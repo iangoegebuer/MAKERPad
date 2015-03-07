@@ -1,6 +1,6 @@
 #include "MAKERPad.h"
 
-#define IAN
+#define FREDADAM
 
 #ifdef IAN
 int Button[][4] =  {{0, 835, 842}, // button 1
@@ -22,14 +22,14 @@ int Button[][4] =  {{0, 835, 842}, // button 1
 #endif
 #ifdef FREDADAM
 int Button[][4] =  {{3, 835, 842}, // button 1
-{1, 730, 740}, // button 2
-{2, 607, 617}, // button 3
+{2, 730, 740}, // button 2
+{1, 607, 617}, // button 3
 {0, 310, 324}, // button 4
 
-{1, 892, 1001}, // button 2 + button 4
+{2, 892, 1001}, // button 2 + button 4
 {3, 892, 1001}, // button 2 + button 4
 
-{2, 872, 881}, // button 3 + button 4
+{1, 872, 881}, // button 3 + button 4
 {3, 872, 881}, // button 3 + button 4
 
 {0, 848, 855}, // button 1 + button 4
@@ -39,10 +39,10 @@ int Button[][4] =  {{3, 835, 842}, // button 1
 {2, 813, 825}, // button 2 + button 3
 
 {0, 765, 773}, // button 1 + button 2
-{1, 765, 773}, // button 1 + button 2
+{2, 765, 773}, // button 1 + button 2
 
 {0, 667, 679}, // button 1 + button 3
-{2, 667, 679}}; // button 1 + button 3
+{1, 667, 679}}; // button 1 + button 3
 #endif
 
 volatile charliePin leds[20] = {{ 4 , 0 },{ 3 , 0 },{ 2 , 0 },{ 1 , 0 },
