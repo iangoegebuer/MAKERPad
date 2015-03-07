@@ -23,7 +23,7 @@ int Button[][4] =  {{0, 835, 842}, // button 1
 #ifdef FREDADAM
 int Button[][4] =  {{3, 835, 842}, // button 1
 {2, 730, 740}, // button 2
-{1, 607, 617}, // button 3
+{1, 600, 617}, // button 3
 {0, 310, 324}, // button 4
 
 {2, 892, 1001}, // button 2 + button 4
